@@ -1,7 +1,11 @@
+
+import java.util.Arrays;
+
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr={5,8,6,4,2};
         bubbleSortRecursion(arr, 4,0);
+        System.out.println(Arrays.toString(arr));
         }
     static void bubbleSortRecursion(int[] arr,int n,int i){
         if(n==0){
